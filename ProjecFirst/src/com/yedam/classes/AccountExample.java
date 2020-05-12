@@ -62,7 +62,7 @@ public class AccountExample {
 				for(Account acc : accounts) {
 					if(acc != null && acc.getAno().equals(ano)) {
 						int result = acc.getBalance();
-						acc.setBalance(result + balance);
+						acc.setBalance(result - balance);
 					}
 				}
 				System.out.println("출금 처리가 되었습니다.");
