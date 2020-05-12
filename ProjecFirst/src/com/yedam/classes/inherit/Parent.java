@@ -5,7 +5,7 @@ public class Parent {
 	private String firstName;
 	private String telNumber; //집 전화번호
 	
-	public Parent() {
+	private Parent() {
 		
 	}
 

@@ -7,7 +7,7 @@ public class Gugudan {
              
             for(int j=1; j <= 9; j++) {
                  
-                System.out.println(i + " * " + j + " = " + i * j);
+                System.out.print(i + " * " + j + " = " + i * j + " ");
                  
             }
              
