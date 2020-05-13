@@ -5,7 +5,7 @@ public class Parent {
 	private String firstName;
 	private String telNumber; //집 전화번호
 	
-	private Parent() {
+	protected Parent() {
 		
 	}
 
@@ -16,11 +16,11 @@ public class Parent {
 		this.telNumber = telNumber;
 	}
 
-	protected String getLastName() {
+	String getLastName() {
 		return lastName;
 	}
 
-	protected void setLastName(String lastName) {
+	void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
 
