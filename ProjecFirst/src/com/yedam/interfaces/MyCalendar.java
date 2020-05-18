@@ -1,7 +1,7 @@
 package com.yedam.interfaces;
 
 import java.util.Calendar;
-
+// github
 public class MyCalendar {
 	public static void main(String[] args) {
 //		Calendar cal = Calendar.getInstance(); // 오늘 날짜 현재 시간 기준
