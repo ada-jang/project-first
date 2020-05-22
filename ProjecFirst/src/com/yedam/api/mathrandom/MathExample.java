@@ -43,6 +43,7 @@ public class MathExample {
 		double value = 12.3456;
 		double temp1 = value * 100; // 곱하기 123.456;
 		long temp2 = Math.round(temp1); // 반올림 123.5;
+// 소수점 첫째 자리에서 반올림
 		double v16 = temp2 / 100.0; // 나누기 12.35;
 		System.out.println("v16=" + v16);
 	}
